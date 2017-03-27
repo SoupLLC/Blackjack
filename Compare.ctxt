@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Compare()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Compare\r\n
+comment1.params=c\ d
+comment1.target=void\ compare(int,\ int)
+comment2.params=u\ i
+comment2.target=void\ dealerCompare(int,\ int)
+comment3.params=g\ k
+comment3.target=void\ finalCompare(int,\ int)
+comment4.params=
+comment4.target=void\ newCard()
+comment5.params=
+comment5.target=void\ hitOrStay()
+comment6.params=
+comment6.target=void\ end()
+comment7.params=
+comment7.target=void\ dealerEnd()
+numComments=8
