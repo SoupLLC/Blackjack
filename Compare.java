@@ -137,7 +137,7 @@ public class Compare
         }
         else if(dealerBust == true) {
             System.out.println("Player wins!");
-            Game.money -= Player.betAmount;
+            Game.money += Player.betAmount;
         }
         else {
             finalCompare(dSum, pSum);

@@ -45,7 +45,7 @@ public class Deck
                 tempVal = 10;
                 if (x == 1) {
                     tempName = "Ace";
-                    //x = 11;
+                    tempVal = 1;
                 }
                 if (x == 10) {
                     tempName = Integer.toString(10);

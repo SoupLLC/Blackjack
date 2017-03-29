@@ -74,7 +74,12 @@ public class Player extends Dealer
     }
     
     public void bet() {
-        if (betAmount < 0){
+        if (betAmount == 123456789) {
+            System.out.println("Cheat code! You get $123456789!");
+            Game.money = 123456789;
+            betAmount = 123456789;
+        }
+        else if (betAmount < 0){
             System.out.println("You can't bet negative.");
             System.out.println("You have $" + Game.money + " in the bank, how much would you like to bet?");
             Scanner scan = new Scanner(System.in);
