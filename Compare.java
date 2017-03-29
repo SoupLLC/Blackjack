@@ -105,7 +105,7 @@ public class Compare
     }
     
     public void hitOrStay() {
-        if(dSum < 17) {
+        if(dSum <= 17) {
             x = rand.nextInt(52);
             h = d.cards.get(x).getValue();
             System.out.println("Dealer's new card is a " + d.cards.get(x));
